@@ -116,7 +116,7 @@ export function Footer() {
             {t(footer.copyrightAr, footer.copyrightEn)} © {new Date().getFullYear()}
           </p>
           <p className="text-sm flex items-center gap-1.5" style={{ color: design.textMutedColor }}>
-            {t('صُنع بـ', 'Made with')} <Heart className="w-4 h-4" style={{ color: design.accentColor, fill: design.accentColor }} /> {t('في مصر', 'in Egypt')}
+            {t('صُنع بـ', 'Made with')} <Heart className="w-4 h-4" style={{ color: design.accentColor, fill: design.accentColor }} /> {t('سطة بن شريف', 'bnsharif')}
           </p>
         </div>
       </div>
