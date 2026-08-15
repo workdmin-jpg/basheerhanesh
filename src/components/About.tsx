@@ -29,10 +29,10 @@ export function About() {
           {/* Text */}
           <div>
             <div style={{ textAlign: design.sectionTitleAlign }}>
-              <span className="inline-block px-4 py-1.5 rounded-full text-base font-bold mb-4" style={{ background: hexToRgba(design.primaryColor, 0.1), color: design.primaryColor }}>
+              <span className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-4" style={{ background: hexToRgba(design.primaryColor, 0.1), color: design.primaryColor }}>
                 {t(about.labelAr, about.labelEn)}
               </span>
-              <h2 className="font-extrabold mb-6 leading-tight" style={{ fontSize: resolveTitleFontSize(design, 'about', 2.25), color: resolveTitleColor(design, 'about'), fontFamily: resolveTitleFont(design, 'about', lang) }}>
+              <h2 className="font-extrabold mb-6 leading-tight" style={{ fontSize: resolveTitleFontSize(design, 'about', 3), color: resolveTitleColor(design, 'about'), fontFamily: resolveTitleFont(design, 'about', lang) }}>
                 {t(about.titleAr, about.titleEn)}
               </h2>
             </div>
